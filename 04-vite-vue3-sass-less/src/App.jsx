@@ -3,7 +3,11 @@ import { defineComponent } from "vue";
 import {titleSize} from "@styles/cssmodule.module.css";
 
 // 使用css 预处理
-import '@styles/sass-test.scss'
+// import '@styles/sass-test.scss'
+
+ // 使用less
+import '@styles/less-test.less'
+
 // named exports w/ variable declaration: ok
 export const Test = defineComponent({
   render() {
