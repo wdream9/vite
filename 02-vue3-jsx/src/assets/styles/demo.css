@@ -1,0 +1,8 @@
+:root{
+    --main-bg-color: yellow;
+}
+
+.demo{
+    color: blue;
+    background: var(--main-bg-color);
+}
