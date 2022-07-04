@@ -1,7 +1,6 @@
 :root{
     --main-bg-color: yellow;
 }
-/* 样式级联需要postcss支持 */
 
 .demo{
     color: blue;
