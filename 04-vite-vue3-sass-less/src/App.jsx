@@ -6,7 +6,10 @@ import {titleSize} from "@styles/cssmodule.module.css";
 // import '@styles/sass-test.scss'
 
  // 使用less
-import '@styles/less-test.less'
+// import '@styles/less-test.less'
+
+// 使用stylus
+import '@styles/stylus-test.styl'
 
 // named exports w/ variable declaration: ok
 export const Test = defineComponent({
