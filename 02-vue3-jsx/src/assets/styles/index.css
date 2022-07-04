@@ -1,0 +1,4 @@
+/* 导入css文件 */
+@import url(./demo.css);
+/* 别名导入 */
+@import url(@styles/demo.css);
