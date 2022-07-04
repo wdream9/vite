@@ -9,5 +9,10 @@ export default defineConfig({
     alias:{
       '@styles':'/src/assets/styles'
     }
+  },
+  css:{
+    modules:{
+      localsConvention:'camelCase'
+    }
   }
 })
