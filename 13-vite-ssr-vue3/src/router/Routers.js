@@ -1,4 +1,4 @@
-import { createRouter as _createRouter, createWebHistory } from 'vue-router'
+import { createRouter as _createRouter,createMemoryHistory, createWebHistory } from 'vue-router'
 
 const pages = import.meta.glob('../pages/*.vue')
 
@@ -13,7 +13,7 @@ const routes = Object.keys(pages).map((path) => {
 
 export function createRouter() {
     return _createRouter({
-        history: createWebHistory(),
+        history: import.meta.env.SSR ?createMemoryHistory():createWebHistory() ,
         routes
     })
 }
