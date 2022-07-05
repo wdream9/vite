@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:vue3": "vite build --base=/project/vue3",
     "preview": "vite preview"
   },
   "dependencies": {
