@@ -14,5 +14,3 @@ const worker = new myWorker
 worker.onmessage = (event) => {
   console.log(event.data)
 }
-
-WebAssembly
